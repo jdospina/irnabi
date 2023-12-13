@@ -6,4 +6,4 @@ Su aplicación en la optimización es sumamente interesante porque a diferencia 
 
 ## Métodos de descenso por gradiente
 
-Sea $f$ una función de valor real, $f \rightarrow \mathbf R$
+Sea $f$ una función de valor real, $f \rightarrow \mathbb R$, $x \rightarrow f(x) \in \mathbb{R}$
