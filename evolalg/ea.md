@@ -6,4 +6,8 @@ Su aplicación en la optimización es sumamente interesante porque a diferencia 
 
 ## Métodos de descenso por gradiente
 
-Sea $f$ una función de valor real, $f: \mathbb R \rightarrow \mathbb R$, $x \in \mathbb{R}  \rightarrow f(x) \in \mathbb{R}$
+Sea $f$ una función de valor real, $f: \mathbb R \rightarrow \mathbb R$, $x \in \mathbb{R}  \rightarrow f(x) \in \mathbb{R}$. El problema de minimizar $f$ se puede escribir como encontrar $x^*$ tal que
+
+$$
+x^* = \arg \max_{x} f(x)
+$$
