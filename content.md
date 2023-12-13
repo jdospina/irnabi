@@ -21,3 +21,4 @@ A continuación se presenta el contenido del curso:
     5.	Aprendizaje adversarial
     6.	Difusión estable (stable diffusion)
 
+[Principal](README.md)
