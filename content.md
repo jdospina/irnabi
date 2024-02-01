@@ -2,7 +2,7 @@
 
 A continuación se presenta el contenido del curso:
 
-1.	Sistemas bioinspirados: el juego de la vida
+1.	[Sistemas bioinspirados: el juego de la vida](juego_vida/juego_vida.md)
 2.	Optimización con métodos bioinspirados
     1.	Algoritmos Evolutivos
     2.	Colonias de hormigas
