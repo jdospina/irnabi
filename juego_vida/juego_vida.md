@@ -4,7 +4,7 @@
 
 El juego de la vida es un juego sin jugadores. En un arreglo matricial binario, se definen reglas para que cada entrada de la matriz (célula) viva o muera en la siguiente generación. El sitio web [Conway's Game of Life](https://playgameoflife.com) permite experimentar con el juego.
 
-El [repositorio git de mwharrisjr](https://github.com/mwharrisjr/Game-of-Life/tree/master) contiene un código Python que implementa el juego.
+El [repositorio git ](https://github.com/mwharrisjr/Game-of-Life/tree/master) de mwharrisjr contiene un código Python que implementa el juego.
 
 
 
