@@ -20,5 +20,5 @@ Una celda viva
 ## Referencias
 Johnston, N., & Greene, D. (2022). Conway's Game of Life: Mathematics and Construction. Nathaniel Johnston. [Ver en Amazon.com](https://www.amazon.com.mx/Conways-Game-Life-Mathematics-Construction/dp/1794816968){:target="_blank"}
 
-[Contenido](content.md)
-[Principal](README.md)
+[Contenido](./content.md)
+[Principal](./README.md)
