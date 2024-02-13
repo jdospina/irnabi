@@ -4,7 +4,7 @@ A continuación se presenta el contenido del curso:
 
 1.	[Sistemas bioinspirados: el juego de la vida](juego_vida/juego_vida.md)
 2.	Optimización con métodos bioinspirados
-    1.	Algoritmos Evolutivos
+    1.	[Algoritmos Evolutivos](evolalg/ea_intro.md)
     2.	Colonias de hormigas
     3.	Inteligencia de enjambres
 3.	Introducción a las redes neuronales: el modelo de la neurona de los mamíferos
