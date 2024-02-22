@@ -1,8 +1,3 @@
-<script src="../mathjaxstyle.js" defer></script>
-<script type="text/javascript" id="MathJax-script" defer
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-
 Los algoritmos evolutivos se inspiran en el paradigma neodarwiniano de la evolución natural de las especies.
 
 Su aplicación en la optimización es sumamente interesante porque a diferencia de los métodos clásicos de descenso por gradiente, consideran un conjunto de soluciones potenciales.
