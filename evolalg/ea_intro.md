@@ -1,11 +1,3 @@
----
-title: "Algoritmos Evolutivos"
-header-includes:
-  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
-bibliography: referencias.bib
----
-
-
 Los algoritmos evolutivos se inspiran en el paradigma neodarwiniano de la evolución natural de las especies.
 
 Su aplicación en la optimización es sumamente interesante porque a diferencia de los métodos clásicos de descenso por gradiente, consideran un conjunto de soluciones potenciales.
