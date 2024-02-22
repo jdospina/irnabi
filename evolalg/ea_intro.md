@@ -4,12 +4,7 @@ header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 bibliography: referencias.bib
 ---
-<head>
-<script src="../mathjaxstyle.js" defer></script>
-<script type="text/javascript" id="MathJax-script" defer
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
-</head>
+
 
 Los algoritmos evolutivos se inspiran en el paradigma neodarwiniano de la evolución natural de las especies.
 
