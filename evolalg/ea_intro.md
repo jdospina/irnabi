@@ -12,19 +12,17 @@ Su aplicación en la optimización es sumamente interesante porque a diferencia 
 Sea $f$ una función de valor real, $f: \mathbb R \rightarrow \mathbb R$, $x \in \mathbb{R} \rightarrow f(x) \in \mathbb{R}$. El problema de minimizar $f$ se puede escribir como encontrar $x^*$ para el cual el valor de $f(x)$ es el mínimo entre todos los posibles valores de $x$. De forma compacta esto se escribe como en \eqref{eq:prob_opt},
 
 
-\begin{equation}
+$$
   x^* = \arg \min_{x} f(x).
  \label{eq:prob_opt}
-\end{equation}
+$$
 
 Si $f'$ (la derivada de $f$ con respecto a $x$) existe, entonces a partir de una condición inicial $x^{(0)}$ se puede obtener como se muestra en \eqref{eq:desc_grad},
 
-```{=tex}
-\begin{equation}
+$$
   x^{(t+1)}=x^{(t)} - \eta f'(x^{(t)}).
  \label{eq:desc_grad}
-\end{equation}
-```
+$$
 
 A $\eta$ (pronunciado eta) se le conoce como \`tasa de aprendizaje\` y controla la velocidad a la que la solución $x^{(t)}$ converge.
 
@@ -113,12 +111,10 @@ y se obtiene
 Si $f$ es una función de valor real, ie., $f: \mathbb R^p \rightarrow \mathbb R$, $x \in \mathbb{R}^p \rightarrow f(x) \in \mathbb{R}$, entonces la regla del descenso por gradiente se expresa como en \eqref{eq:desc_grad_mult},
 
 
-```{=tex}
-\begin{equation}
+$$
   x^{(t+1)}=x^{(t)} - \eta \nabla f (x^{(t)}),
  \label{eq:desc_grad_mult}
-\end{equation}
-```
+$$
 
 donde $\nabla f$ representa el vector gradiente de $f$.
 
@@ -126,12 +122,10 @@ donde $\nabla f$ representa el vector gradiente de $f$.
 
 Cuando obtener una expresión simple para el gradiente es complicado es posible reemplazar $\nabla f (x^{(t)})$ por una aproximación usando el método de [diferencias finitas](https://en.wikipedia.org/wiki/Finite_difference), usando la expresión \eqref{eq:dif_finitas} para cada coordenada $x_{j}^{(t)}$, $j=1,2,\ldots,p$,
 
-```{=tex}
-\begin{equation}
+$$
   \frac{\partial}{\partial x_j} f (x^{(t)})= \frac{f (x^{(t)} + h \times u_j) - f (x^{(t)} - h \times u_j)}{2h},
  \label{eq:dif_finitas}
-\end{equation}
-```
+$$
 
 donde $u_j \in \mathbb{R}^p$ es un vector cuyas componente $j$-ésima componente es 1 y las otras son cero. La constante $h>0$ es un valor pequeño que define la precisión de la aproximación.
 
