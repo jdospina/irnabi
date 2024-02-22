@@ -6,12 +6,12 @@ Su aplicación en la optimización es sumamente interesante porque a diferencia 
 
 Sea $f$ una función de valor real, $f: \mathbb R \rightarrow \mathbb R$, $x \in \mathbb{R} \rightarrow f(x) \in \mathbb{R}$. El problema de minimizar $f$ se puede escribir como encontrar $x^*$ para el cual el valor de $f(x)$ es el mínimo entre todos los posibles valores de $x$. De forma compacta esto se escribe como en \eqref{eq:prob_opt},
 
-```{=tex}
+
 \begin{equation}
   x^* = \arg \min_{x} f(x).
  \label{eq:prob_opt}
 \end{equation}
-```
+
 Si $f'$ (la derivada de $f$ con respecto a $x$) existe, entonces a partir de una condición inicial $x^{(0)}$ se puede obtener como se muestra en \eqref{eq:desc_grad},
 
 ```{=tex}
